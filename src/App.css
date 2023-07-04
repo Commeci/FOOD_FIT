@@ -12,6 +12,13 @@
     padding: 0;
 }
 
+.period_page {
+    text-align: center;
+    background-color: #f6fff8;
+    margin: 0;
+    padding: 0;
+}
+
 .title {
     font-size: 2.5rem;
     margin: 0;
@@ -90,8 +97,8 @@
 }
 
 .select_class option {
-    background-color: #484848;
-    color: white;
+    background-color: white;
+    color: 757575;
     padding: 6px;
     margin: 10px;
 }
@@ -186,4 +193,64 @@
 
 .home_btn {
     float: right;
+}
+
+.date_picker {
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px #cccccc;
+    width: 100%;
+    height: 23px;
+}
+
+.period_select {
+    border: 3px solid #bbe0d2;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #cccccc;
+    width: 95%;
+}
+
+.period {
+    margin: 5%;
+}
+
+.period_graph {
+    width: 95%;
+    height: 400px;
+    background-color: white;
+    margin: 2%;
+    margin-top: 14%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px #cccccc;
+}
+
+.select_type {
+    float: right;
+    width: 100px;
+    height: 25px;
+    border-radius: 5spx;
+    font-size: 13px;
+    text-align: left;
+    border: 1px solid white;
+    box-shadow: 0px 4px 8px #cccccc;
+    background-size: 20px;
+}
+
+.select_type option {
+    background-color: white;
+    color: #757575;
+    padding: 3px;
+    margin: 10px;
+}
+
+.select_type:valid {
+    color: #000000;
+}
+
+.graph_data {
+    padding-left: 2%;
+    text-align: center;
+    width: 95%;
+    height: 350px;
 }
